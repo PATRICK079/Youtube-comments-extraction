@@ -8,13 +8,6 @@ This project is an automated end-to-end ETL pipeline, scheduled to run daily. It
 Company XYZ, an entertainment business, is concerned about customer retention and aims to better understand audience feedback. To address this, they have tasked me with developing an automated ETL pipeline that extracts comments from one of their recently posted YouTube videos and stores them in a database. The pipeline will be deployed into production and scheduled to run daily, ensuring new comments are fetched regularly. The ultimate goal is to use these collected comments to build a sentiment analysis model, providing valuable insights into customer satisfaction and identifying actionable strategies to enhance their overall experience
 
 
-
-
-Overview
-========
-
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
-
 Project Contents
 ================
 
@@ -53,4 +46,7 @@ Note: By default, astro dev start exposes the Airflow Webserver on port 8080 and
 Access the Airflow UI: Open http://localhost:8080/ in your browser and log in with admin for both the username and password.
 
 Access the Postgres database: Connect to the database at localhost:5432/postgres for managing the extracted YouTube comments.
+
+## WATCH THE AUTOMATION HERE: 
+https://www.linkedin.com/posts/patrickedosoma_etl-dataengineering-postgresql-activity-7288207522610475009-7Kty?utm_source=share&utm_medium=member_desktop
 
